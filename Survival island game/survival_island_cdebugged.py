@@ -617,7 +617,6 @@ def main():
                 sp("Would you like to: \n[1] Explore deeper into the jungle?\n[2] Explore the beach shore more")
                 jungle_or_beach=input(" ")
                 if jungle_or_beach=="1":
-                    
                     sp("You explore deeper into the jungle...")
                     deeper_explore=random.choice(structure_dice)
                     if deeper_explore==3 and looted_cabin==False:
