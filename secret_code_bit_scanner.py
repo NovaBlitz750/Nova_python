@@ -1,0 +1,7 @@
+no=int(input("Enter a no. "))
+no2=int(input("Enter another number "))
+print(no,"&",no2," = ",bin(no&no2)[2:])
+print(no,"|",no2," = ",bin(no|no2)[2:])
+print(no,"^",no2," = ",bin(no^no2)[2:])
+print(no,"<<",no2," = ",bin(no<<no2)[2:])
+print(no,">>",no2," = ",bin(no>>no2)[2:])
